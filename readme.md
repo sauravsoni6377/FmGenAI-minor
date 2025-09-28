@@ -13,7 +13,7 @@ Final Report: https://github.com/sauravsoni6377/FmGenAI-minor/blob/main/Minor-Re
 
 This repository contains the implementation and evaluation of Flat-LoRA: Low-Rank Adaptation over a Flat Loss Landscape for the Foundational Models and Generative AI course mid-semester examination. The submission includes comprehensive experiments, sanity checks, and domain-shift evaluation on financial sentiment analysis.
 
-## Repository Structure
+## code Files created for Part - A 
 
 ```
 ├── run_financial_sentiment.py     # Main experiment script for Q4
