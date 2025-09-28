@@ -4,7 +4,7 @@
 ### **Saurav Soni - (B22AI035)**
 
 
-Final Report: 
+Final Report: https://github.com/sauravsoni6377/FmGenAI-minor/blob/main/Minor-Report-FMGenAI.pdf
 
 ---
 ## Flat-LoRA Mid-Semester - Part A
