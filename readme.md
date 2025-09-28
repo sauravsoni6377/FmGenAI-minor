@@ -4,7 +4,7 @@
 ### **Saurav Soni - (B22AI035)**
 
 
-Final Report: https://github.com/sauravsoni6377/FmGenAI-minor/blob/main/Minor-Report-FMGenAI.pdf
+Final Report: https://github.com/sauravsoni6377/FmGenAI-minor/blob/main/Minor-Saurav%20Soni-Flat-LoRA%3A%20Low-Rank%20Adaptation%20over%20a%20Flat%20Loss%20Landscape.pdf
 
 ---
 ## Flat-LoRA - Part A
