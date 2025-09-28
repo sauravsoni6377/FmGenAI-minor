@@ -1,0 +1,50 @@
+{
+  "full": [
+    {
+      "seed": 42,
+      "metrics": {
+        "eval_loss": 0.9948803782463074,
+        "eval_accuracy": 0.4,
+        "eval_f1": 0.22857142857142862,
+        "eval_precision": 0.16000000000000003,
+        "eval_recall": 0.4,
+        "eval_runtime": 0.0291,
+        "eval_samples_per_second": 1373.707,
+        "eval_steps_per_second": 171.713,
+        "epoch": 1.0
+      }
+    }
+  ],
+  "lora": [
+    {
+      "seed": 42,
+      "metrics": {
+        "eval_loss": 1.0466132164001465,
+        "eval_accuracy": 0.4,
+        "eval_f1": 0.22857142857142862,
+        "eval_precision": 0.16000000000000003,
+        "eval_recall": 0.4,
+        "eval_runtime": 0.0397,
+        "eval_samples_per_second": 1007.822,
+        "eval_steps_per_second": 125.978,
+        "epoch": 1.0
+      }
+    }
+  ],
+  "flat_lora": [
+    {
+      "seed": 42,
+      "metrics": {
+        "eval_loss": 1.0464956760406494,
+        "eval_accuracy": 0.4,
+        "eval_f1": 0.22857142857142862,
+        "eval_precision": 0.16000000000000003,
+        "eval_recall": 0.4,
+        "eval_runtime": 0.0399,
+        "eval_samples_per_second": 1001.768,
+        "eval_steps_per_second": 125.221,
+        "epoch": 1.0
+      }
+    }
+  ]
+}

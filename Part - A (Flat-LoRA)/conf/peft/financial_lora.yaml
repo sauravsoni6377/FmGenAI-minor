@@ -1,0 +1,6 @@
+use_peft: true
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.1
+target_modules: ["query", "value", "key", "output.dense"]
+rho: 0.05

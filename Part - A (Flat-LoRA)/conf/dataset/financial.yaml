@@ -1,0 +1,5 @@
+dataset_name: financial_phrasebank
+num_classes: 3
+text_column: "x"
+label_column: "y"
+max_length: 256
