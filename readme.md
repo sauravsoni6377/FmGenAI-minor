@@ -7,7 +7,7 @@
 Final Report: https://github.com/sauravsoni6377/FmGenAI-minor/blob/main/Minor-Report-FMGenAI.pdf
 
 ---
-## Flat-LoRA Mid-Semester - Part A
+## Flat-LoRA - Part A
 
 ## Overview
 
