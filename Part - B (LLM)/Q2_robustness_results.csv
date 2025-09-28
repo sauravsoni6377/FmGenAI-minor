@@ -1,0 +1,51 @@
+id,noise_type,noise_level,prompt_in,gold,pred,correct
+1,clean,none,What is the capital of France?,Paris,Paris,1
+2,clean,none,Who wrote Romeo and Juliet?,Shakespeare,Shakespeare,1
+3,clean,none,What is 2+2?,4,4,1
+4,clean,none,Name the largest planet,Jupiter,Jupiter,1
+5,clean,none,What year did WW2 end?,1945,1945,1
+6,typos,light,Waht is the capital of France?,Paris,Paris,1
+7,typos,light,Who worte Romeo and Juliet?,Shakespeare,Shakespeare,1
+8,typos,light,Waht is 2+2?,4,4,1
+9,typos,light,Name the largset planet,Jupiter,Jupiter,1
+10,typos,light,What yaer did WW2 end?,1945,1945,1
+11,typos,heavy,Waht si teh captial fo Frnace?,Paris,France,0
+12,typos,heavy,Woh worte Rmeo adn Jluiet?,Shakespeare,Romeo,0
+13,typos,heavy,Waht si 2+2?,4,4,1
+14,typos,heavy,Nmae teh lragest palnet,Jupiter,Saturn,0
+15,typos,heavy,Waht yaer ddi WW2 edn?,1945,1945,1
+16,spacing,light,What  is  the  capital  of  France?,Paris,Paris,1
+17,spacing,light,Who wrote   Romeo and Juliet?,Shakespeare,Shakespeare,1
+18,spacing,light,What is 2 + 2?,4,4,1
+19,spacing,light,Name the  largest  planet,Jupiter,Jupiter,1
+20,spacing,light,What year did  WW2  end?,1945,1945,1
+21,spacing,heavy,What    is    the    capital    of    France?,Paris,Paris,1
+22,spacing,heavy,Who     wrote     Romeo     and     Juliet?,Shakespeare,unclear,0
+23,spacing,heavy,What     is     2+2?,4,4,1
+24,spacing,heavy,Name     the     largest     planet,Jupiter,Jupiter,1
+25,spacing,heavy,What    year    did    WW2    end?,1945,1945,1
+26,unicode,light,What is the capital of Frαnce?,Paris,Paris,1
+27,unicode,light,Who wrote Romeo and Juliet?,Shakespeare,Shakespeare,1
+28,unicode,light,What is 2+２?,4,4,1
+29,unicode,light,Name the largest plαnet,Jupiter,Jupiter,1
+30,unicode,light,What year did WW2 end?,1945,1945,1
+31,unicode,heavy,Whαt is the cαpitαl 0f Frαnce?,Paris,France capital,0
+32,unicode,heavy,Wh0 wr0te R0me0 αnd Juliet?,Shakespeare,unknown,0
+33,unicode,heavy,Whαt is ２+２?,4,4,1
+34,unicode,heavy,Nαme the lαrgest plαnet,Jupiter,planet,0
+35,unicode,heavy,Whαt yeαr did WW２ end?,1945,World War,0
+36,emoji,light,What is the capital of 🇫🇷 France?,Paris,Paris,1
+37,emoji,light,Who wrote 📖 Romeo and Juliet?,Shakespeare,Shakespeare,1
+38,emoji,light,What is 2️⃣+2️⃣?,4,4,1
+39,emoji,light,Name the largest 🪐 planet,Jupiter,Jupiter,1
+40,emoji,light,What year did WW2 🔚 end?,1945,1945,1
+41,emoji,heavy,What 🤔 is the capital 🏛️ of France 🇫🇷?,Paris,Paris,1
+42,emoji,heavy,Who 👤 wrote 📝 Romeo 💑 and Juliet 💔?,Shakespeare,Shakespeare,1
+43,emoji,heavy,What ❓ is 2️⃣➕2️⃣?,4,two plus two,0
+44,emoji,heavy,Name 📛 the largest 🔷 planet 🌍,Jupiter,Earth,0
+45,emoji,heavy,What 📅 year did WW2 💣 end 🔚?,1945,1945,1
+46,mixed,heavy,Waht    is the cαpitαl 🏛️ of Frnace?,Paris,unclear,0
+47,mixed,heavy,Wh0 worte  📖  R0me0 αnd Juliet?,Shakespeare,unknown,0
+48,mixed,heavy,Whαt  is  ２➕２?,4,4,1
+49,mixed,heavy,Nmae    the lαrgest 🪐 palnet,Jupiter,planet,0
+50,mixed,heavy,Waht yeαr  did  WW２ 💣 edn?,1945,war ended,0
